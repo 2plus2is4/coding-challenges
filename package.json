@@ -1,0 +1,32 @@
+{
+  "name": "load-balancer",
+  "version": "1.0.0",
+  "repository": "https://github.com/2plus2is4/coding-challenges/tree/load-balancer",
+  "scripts": {
+    "start": "concurrently -p name -c auto \"npm run start:*\"",
+    "start:LB": "ts-node src/loadBalancer.ts",
+    "start:alpha": "ts-node src/backendServers/alpha.ts",
+    "start:beta": "ts-node src/backendServers/beta.ts",
+    "start:gamma": "ts-node src/backendServers/gamma.ts",
+    "start:delta": "ts-node src/backendServers/delta.ts",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "@tsconfig/node22": "^22.0.1",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.4",
+    "concurrently": "^9.1.2",
+    "eslint": "^9.24.0",
+    "globals": "^16.0.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.29.0"
+  }
+}
