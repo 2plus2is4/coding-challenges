@@ -1,0 +1,31 @@
+{
+  "name": "redis",
+  "version": "1.0.0",
+  "description": "My own lite version of Redis which will support the same operations as the original version of Redis.",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2plus2is4/coding-challenges.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2plus2is4/coding-challenges/issues"
+  },
+  "homepage": "https://github.com/2plus2is4/coding-challenges#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "@tsconfig/node22": "^22.0.1",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.14.0",
+    "eslint": "^9.24.0",
+    "globals": "^16.0.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.29.1"
+  }
+}
